@@ -61,7 +61,7 @@ class _HomeScreenState extends State<HomeScreen>
 
     _animation = CurvedAnimation(parent: _controller, curve: Curves.easeInOut);
 
-    _controller.value = 1.0; // start visible
+    _controller.value = 1.0; 
   }
 
   @override
